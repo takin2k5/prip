@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box !important;
+    font-family: Inter, sans-serif;
+    font-size: 100%;
+    margin: 0 0;
+    padding: 0 0;
+}
+body{
+    /* background-image: url("/anh.png"); */
+    background-size: cover;
+    user-select: none!important;
+}
+.header{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 56px;
+    border-bottom: 1.5px rgb(235, 235, 235) solid;
+    position: absolute;
+}
+.logo{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 100px;
+}
+.test{
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 193px;
+}
+#list{
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#list li{
+    color: #23242D;
+    font-size: 16px;
+    font-weight:600;
+    margin-right: 70px;
+    
+}
+#list li:hover{
+    color: rgb(0, 114, 221);
+    transition: 0.2s;
+    font-size: 16px;
+}
