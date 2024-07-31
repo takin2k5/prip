@@ -13,7 +13,7 @@ body{
 .header{
     background-color: white;
     display: flex;
-    width: 100%;
+    width: 1450px;
     height: 56px;
     border-bottom: 1.5px rgb(235, 235, 235) solid;
 }
