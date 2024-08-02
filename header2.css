@@ -17,8 +17,8 @@
     transform: translateY(-50%);
 }
 .header p{
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: 17px;
     transform: translateY(-50%);
     font-size: 17.5px;
     font-weight: 600;
