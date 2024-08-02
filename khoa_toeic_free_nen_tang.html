@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOEIC</title>
+    <link rel="stylesheet" href="header2.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <svg class="back_button" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px"
+            height="25px" viewBox="0,0,256,256">
+            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                <g transform="scale(3.55556,3.55556)">
+                    <path
+                        d="M29.87109,15.54492c-1.0235,0.01638 -2.04105,0.4233 -2.81055,1.2168l-15.93359,16.45703c-1.501,1.551 -1.501,4.01345 0,5.56445l15.93359,16.45703c0.785,0.81 1.83,1.2168 2.875,1.2168c1.003,0 2.00525,-0.37395 2.78125,-1.12695c1.587,-1.536 1.6278,-4.06925 0.0918,-5.65625l-9.36914,-9.67383h34.56055c2.209,0 4,-1.791 4,-4c0,-2.209 -1.791,-4 -4,-4h-34.56055l9.36914,-9.67383c1.536,-1.587 1.4952,-4.11925 -0.0918,-5.65625c-0.7925,-0.768 -1.8222,-1.14137 -2.8457,-1.125z">
+                    </path>
+                </g>
+            </g>
+        </svg>
+        <div>
+            <p>Khoá học Toeic PREP dành cho bạn.</p>
+        </div>
+    </header>
+    <div class="main">
+        <div class="left">
+            <iframe id="video" class="video" width="939px" height="528.19px" src="https://www.youtube.com/embed/pTO-lkq6kPU" title="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="right">
+            <p class="title2">Khoá học</p>
+            <div  class="item1">
+                <div>
+                    <div class="tron"></div>
+                    <a class="title3">Lesson 1 Giới thiệu</a>
+                    <img src="icons.png" alt="">
+                </div>
+                <ul>
+                    <li onclick="On_Click(event)"><div id="title4" class="https://www.youtube.com/embed/pTO-lkq6kPU">#1. Video 1</div></li>
+                    <li onclick="On_Click(event)"><div id="title4" class="https://www.youtube.com/embed/O2eqBWsFXJc">#2. Video 2</div></li>
+                </ul>
+            </div>
+            <div class="item2">
+                <div >
+                    <div class="tron"></div>
+                    <a class="title3">Lesson 2 Danh từ</a>
+                    <img src="icons.png" alt="">
+                </div>
+                <ul>
+                    <li><div id="title4">#1. Video 1</div></li>
+                    <li><div id="title4">#2. Video 2</div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+            function On_Click(event){
+                var classNames = event.target.className;
+                // alert(classNames)
+                document.getElementById("video").src = classNames;
+            }
+    </script>
+</body>
+</html>
