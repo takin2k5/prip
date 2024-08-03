@@ -25,3 +25,6 @@
     color: rgb(0, 114, 221);
     background-color: white;
 }
+.back_button:hover{
+    cursor: pointer;
+}
